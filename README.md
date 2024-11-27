@@ -1,16 +1,33 @@
 ## Hi there 👋
 
-<!--
-**salvamiguel/salvamiguel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+If I were a resource, my deployment template would be:
 
-Here are some ideas to get you started:
+```yaml
+apiVersion: world/v1
+kind: Person
+metadata:
+  name: Salva Manzanera
+spec:
+  replicas: 1 # There is only me!
+  selector:
+    matchLabels:
+      app: goodGuy
+  template:
+    metadata:
+      labels:
+        role: leadArchitect
+        company: NTTData
+    spec:
+      containers:
+      - name: computeScience
+        image: upv/computer-science-degree:2018
+        ports:
+        - containerPort: 8080
+      - name: awsSolutionsArchitectAssociate
+        image: aws/solutions-architect-associate:2024
+        ports:
+        - containerPort: 8081
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Things I am working on...
+- Looking for the Workshop on Crossplane + ArgoCD? [See this repository](https://github.com/salvamiguel/crossplane-argocd-workshop)
