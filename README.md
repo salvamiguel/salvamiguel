@@ -1,10 +1,5 @@
 ## Hi there 👋
 
-## Badges
-
-![AWS Certified AI Practitioner](badges/aws-certified-ai-practitioner.png) ![AWS Certified Solutions Architect - Associate](badges/aws-certified-solutions-architect-associate.png) ![GitHub Actions](badges/github-actions.png)
-
-
 If I were a resource, my deployment template would be:
 
 ```yaml
@@ -36,3 +31,7 @@ spec:
 
 ### Things I am working on...
 - Looking for the Workshop on Crossplane + ArgoCD? [See this repository](https://github.com/salvamiguel/crossplane-argocd-workshop)
+
+## Badges
+
+![AWS Certified AI Practitioner](badges/aws-certified-ai-practitioner.png) ![AWS Certified Solutions Architect - Associate](badges/aws-certified-solutions-architect-associate.png) ![GitHub Actions](badges/github-actions.png)
