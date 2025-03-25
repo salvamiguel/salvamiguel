@@ -1,5 +1,10 @@
 ## Hi there 👋
 
+## Badges
+
+![AWS Certified AI Practitioner](badges/aws-certified-ai-practitioner.png) ![AWS Certified Solutions Architect - Associate](badges/aws-certified-solutions-architect-associate.png) ![GitHub Actions](badges/github-actions.png)
+
+
 If I were a resource, my deployment template would be:
 
 ```yaml
