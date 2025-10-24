@@ -15,7 +15,7 @@ spec:
   template:
     metadata:
       labels:
-        role: leadArchitect
+        role: expertArchitect
         company: NTTData
     spec:
       containers:
