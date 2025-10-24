@@ -27,6 +27,14 @@ spec:
         image: aws/solutions-architect-associate:2024
         ports:
         - containerPort: 8081
+      - name: awsAIPractitioner
+        image: aws/ai-pratitioner:2025
+        ports:
+        - containerPort: 8082
+      - name: githubActions
+        image: github/actions:2025
+        ports:
+        - containerPort: 8083
 ```
 
 ### Things I am working on...
