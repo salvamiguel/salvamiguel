@@ -35,11 +35,25 @@ spec:
         image: github/actions:2025
         ports:
         - containerPort: 8083
+      - name: azureAIFundamentals
+        image: microsoft/azure-ai-fundamentals:2025
+        ports:
+        - containerPort: 8084
+      - name: azureDataFundamentals
+        image: microsoft/azure-data-fundamentals:2025
+        ports:
+        - containerPort: 8085
+      - name: awsAcademyEducator
+        image: aws/academy-educator:2026
+        ports:
+        - containerPort: 8086
 ```
 
 ### Things I am working on...
 - Looking for the Workshop on Crossplane + ArgoCD? [See this repository](https://github.com/salvamiguel/crossplane-argocd-workshop)
+- Personal knowledge wiki for DevOps, Cloud & AI: [See materials](https://github.com/salvamiguel/materials)
+- Need to test GitHub Actions declaratively with zero boilerplate? [See actions-test](https://github.com/salvamiguel/actions-test)
 
 ## Badges
 
-![AWS Certified AI Practitioner](badges/aws-certified-ai-practitioner.png) ![AWS Certified Solutions Architect - Associate](badges/aws-certified-solutions-architect-associate.png) ![GitHub Actions](badges/github-actions.png)
+![AWS Certified Solutions Architect - Associate](badges/aws-certified-solutions-architect-associate.png) ![AWS Certified AI Practitioner](badges/aws-certified-ai-practitioner.png) ![AWS Certified AI Practitioner Early Adopter](badges/aws-certified-ai-practitioner-early-adopter.png) ![AWS Academy Educator](badges/aws-academy-educator.png) ![GitHub Actions](badges/github-actions.png) ![Microsoft Certified: Azure AI Fundamentals](badges/azure-ai-fundamentals.png) ![Microsoft Certified: Azure Data Fundamentals](badges/azure-data-fundamentals.png)
