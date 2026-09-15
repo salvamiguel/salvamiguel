@@ -47,6 +47,14 @@ spec:
         image: aws/academy-educator:2026
         ports:
         - containerPort: 8086
+      - name: claudeCertifiedArchitect
+        image: anthropic/claude-certified-architect-foundations:2027
+        ports:
+        - containerPort: 8087
+      - name: claudeCertifiedDeveloper
+        image: anthropic/claude-certified-developer-foundations:2027
+        ports:
+        - containerPort: 8088
 ```
 
 ### Things I am working on...
@@ -56,4 +64,4 @@ spec:
 
 ## Badges
 
-![AWS Certified Solutions Architect - Associate](badges/aws-certified-solutions-architect-associate.png) ![AWS Certified AI Practitioner](badges/aws-certified-ai-practitioner.png) ![AWS Certified AI Practitioner Early Adopter](badges/aws-certified-ai-practitioner-early-adopter.png) ![AWS Academy Educator](badges/aws-academy-educator.png) ![GitHub Actions](badges/github-actions.png) ![Microsoft Certified: Azure AI Fundamentals](badges/azure-ai-fundamentals.png) ![Microsoft Certified: Azure Data Fundamentals](badges/azure-data-fundamentals.png)
+![AWS Certified Solutions Architect - Associate](badges/aws-certified-solutions-architect-associate.png) ![AWS Certified AI Practitioner](badges/aws-certified-ai-practitioner.png) ![AWS Certified AI Practitioner Early Adopter](badges/aws-certified-ai-practitioner-early-adopter.png) ![AWS Academy Educator](badges/aws-academy-educator.png) ![GitHub Actions](badges/github-actions.png) ![Microsoft Certified: Azure AI Fundamentals](badges/azure-ai-fundamentals.png) ![Microsoft Certified: Azure Data Fundamentals](badges/azure-data-fundamentals.png) ![Claude Certified Architect - Foundations](badges/claude-certified-architect-foundations.png) ![Claude Certified Developer - Foundations](badges/claude-certified-developer-foundations.png)
